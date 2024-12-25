@@ -24,6 +24,9 @@ export default function Root() {
         <div id="sidebar">
             <h1>React Router Contacts</h1>
             <div>
+                <Form method="post">
+                    <button type="submit">New</button>
+                </Form>
                 <form id="search-form" role="search">
                     <input 
                       id="q"
