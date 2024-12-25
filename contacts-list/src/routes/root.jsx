@@ -3,8 +3,7 @@ import {
     Link,
     useLoaderData,
     Form,
-} from "react-router-dom";
-import { getContacts } from "../contacts";
+} from "react-router-dom";s
 import {getContacts, createContact } from "../contacts";
 
 export async function action() {
